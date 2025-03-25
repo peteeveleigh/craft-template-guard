@@ -1,6 +1,6 @@
 <?php
 
-namespace craft\templateguard\exceptions;
+namespace jorenvanhee\templateguard\exceptions;
 
 use Exception;
 
