@@ -8,7 +8,6 @@ use craft\helpers\UrlHelper;
 use jorenvanhee\templateguard\Plugin;
 use jorenvanhee\templateguard\exceptions\InvalidRefParamException;
 use yii\base\Component;
-use yii\web\BadRequestHttpException;
 use yii\web\Cookie;
 
 class GuardService extends Component

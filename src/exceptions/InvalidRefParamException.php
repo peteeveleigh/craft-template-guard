@@ -2,8 +2,9 @@
 
 namespace jorenvanhee\templateguard\exceptions;
 
-use Exception;
+use yii\web\BadRequestHttpException;
 
-class InvalidRefParamException extends \RuntimeException implements Exception
+
+class InvalidRefParamException extends BadRequestHttpException
 {
 }
